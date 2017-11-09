@@ -1,0 +1,17 @@
+<div id="root">
+    Aqui se general los elementos
+</div>
+
+<script>
+    const mi_div = document.getElementById("root");
+
+    const button = document.createElement("button");
+
+    button.innerText = "pulsame";
+
+    button.onclick = function () {
+        alert("Hola :D");
+    };
+
+    mi_div.appendChild(button);
+</script>
